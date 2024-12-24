@@ -20,6 +20,7 @@ void employeeAttendance(int wagePerHour, int fullDayHour, int partTimeHour){
         cout << "Daily Wage: 0" << endl;
     }else if(randomNum == 1){
         cout << "Employee is Part Time" << endl;
+        int partTimeHour = fullDayHour / 2;
         int dailyWage = calculateDailyWage(wagePerHour, partTimeHour);
         cout << "Daily Wage : " << dailyWage << endl; 
 
